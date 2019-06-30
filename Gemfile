@@ -28,6 +28,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'pry'
+gem "actionview", ">= 5.2.2.1"
+gem "railties", ">= 5.2.2.1"
 
 gem 'omniauth'
 gem 'omniauth-facebook'
