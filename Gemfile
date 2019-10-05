@@ -35,6 +35,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'dotenv-rails'
 
+gem "nokogiri", ">= 1.10.4"
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
