@@ -30,6 +30,8 @@ nav a {
     float: left;
  }
 
+/* HEADINGS */
+
 h1 {
   color: #A8C4C9;
   font-family: sans-serif;
@@ -45,6 +47,22 @@ h4 {
   font-family: sans-serif;
 }
 
+/* LINKS */
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #DDEEF3;
+}
+a:visited {
+  color: #DDEEF3;
+}
+a:hover {
+  color: #AB9418;
+}
+
+/* FEATURES */
+
 body {
     background: black;
     color: #66B3CA;
@@ -57,16 +75,6 @@ body {
   background-color: #0E5A8E;
   padding: 4px 16px;
   position: absolute;
-}
-
-a:link {
-  color: #DDEEF3;
-}
-a:visited {
-  color: #DDEEF3;
-}
-a:hover {
-  color: #AB9418;
 }
 
 form input[type='text'] {
