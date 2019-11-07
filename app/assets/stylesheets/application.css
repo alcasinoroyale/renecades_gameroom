@@ -61,14 +61,7 @@ a:hover {
   color: #AB9418;
 }
 
-/* FEATURES */
-
-body {
-    background: black;
-    color: #66B3CA;
-    font-family: sans-serif;
-}
-
+/* FORMS */
 .button, input[type="submit" i]{
   color: #fff;
   text-decoration: none;
@@ -80,6 +73,43 @@ body {
 form input[type='text'] {
   width: 150px;
   height: 20px;
+}
+
+form input[type='password'] {
+  width: 150px;
+  height: 20px;
+}
+
+.username-select {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.password-box {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.form-text-box {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.new-user, .login label {
+  font-size: 20px;
+}
+
+.new-user, .login form input {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* FEATURES */
+
+body {
+  background: black;
+  color: #66B3CA;
+  font-family: sans-serif;
 }
 
 .renecades {
