@@ -14,8 +14,12 @@ Reward Points: <%= @user.reward_points %></h3>
 <% end %>
 
 <h2>Played Games</h2>
-<% @user.games.each do |game| %>
-  <h3><%= link_to game.name, game_path(game) %></h3>
+<% if @user.games.any? %>
+  <% @user.games.each do |game| %>
+    <h3><%= link_to game.name, game_path(game) %></h3>
+  <% end %>
+<% else %>
+  <h3>You haven't played any games yet.</h3>
 <% end %>
 
 <h2>Renecades Players:</h2>

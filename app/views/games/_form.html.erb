@@ -38,7 +38,5 @@
  <%= f.label :category_id, "Gaming Category:" %><br>
  <%= f.collection_select :category_id, Category.all, :id, :name, selected: @category.id %><br><br>
 
- <br>
-
- <%= f.submit %>
+ <%= f.submit "Create Game", class: 'form-text-box' %>
 <% end %>
