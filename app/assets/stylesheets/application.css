@@ -33,18 +33,31 @@ nav a {
 /* HEADINGS */
 
 h1 {
-  color: #A8C4C9;
+  color: #f0f0f0;
   font-family: sans-serif;
 }
 
 h2 {
-  color: #A8C4C9;
+  color: #DDEEF3;
   font-family: sans-serif;
+}
+
+.user-profile h2 {
+  color: #66B3CA;
+}
+
+.user-profile h3 {
+  color: #f0f0f0
 }
 
 h4 {
   color: #A2BCD0;
   font-family: sans-serif;
+}
+
+.games-desc {
+  font-size: 18px;
+  color: #f0f0f0;
 }
 
 /* LINKS */
@@ -167,11 +180,6 @@ body {
   position: absolute;
   bottom: 200px;
   left: 60px;
-}
-
-.rank {
-  color: #DDEEF3;
-  font-size: 20px;
 }
 
 .style_image {

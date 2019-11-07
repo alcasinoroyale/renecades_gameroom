@@ -1,11 +1,11 @@
 <h1> All the Games at Renecades </h1>
 
-<p>Renecades hosts a variety of board games, video games, and table games.<br>
+<p class="games-desc">Renecades hosts a variety of board games, video games, and table games.<br>
 Join the fun and start earning rewards for every game that you play.<br>
 See what other gamers are playing and climb up the leaderboard!<p>
 
 <% @games.each do |game| %>
-    <h3><%= link_to game.name, game_path(game) %></h3>
+    <h2><%= link_to game.name, game_path(game) %></h2>
     <p><%= game.reward_points %> Reward Points</p>
 <% end %>
 

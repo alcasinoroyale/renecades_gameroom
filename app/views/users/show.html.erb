@@ -1,12 +1,10 @@
+<div class="user-profile">
 <h1><%= @user.username %>'s Profile</h1>
-<h3>Bio: <%= @user.bio %><br>
-Favorite Game: <%= @user.favorite_game %><br>
-Reward Points: <%= @user.reward_points %></h3>
 
-<h3>Player Rank:</h2>
-<div class="rank">
-<%= @user.rank %>
-</div>
+<h3>Bio: <%= @user.bio %>
+Reward Points: <%= @user.reward_points %>
+Favorite Game: <%= @user.favorite_game %>
+Player Rank: <%= @user.rank %></h3>
 
 <h2>Created Games</h2>
 <% @user.created_games.each do |game| %>
@@ -26,3 +24,4 @@ Reward Points: <%= @user.reward_points %></h3>
 <% @users.each do |user| %>
 <h3><%= user.id %>. <%= link_to user.username, user_path(user) %></h3>
 <% end %>
+</div>
