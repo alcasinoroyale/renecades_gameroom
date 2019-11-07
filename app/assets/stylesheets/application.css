@@ -46,18 +46,19 @@ h2 {
   color: #66B3CA;
 }
 
-.user-profile h3 {
-  color: #f0f0f0
-}
-
 h4 {
-  color: #A2BCD0;
+  color: #f0f0f0;
   font-family: sans-serif;
 }
 
 .games-desc {
   font-size: 18px;
   color: #f0f0f0;
+}
+
+.user-info {
+  color: #f0f0f0;
+  font-size: 18px;
 }
 
 /* LINKS */
@@ -75,15 +76,8 @@ a:hover {
 }
 
 .edit-game {
-  margin-top: 40px;
-  color: white;
-  background-color: #0E5A8E;
-  border: 1px solid #f5f5f5;
-  width: 110px;
-  height: 20px;
-  font-size: 16px;
-  padding-top: 4px;
-  text-align: center;
+  color: #f0f0f0;
+  padding: 30px 20px;
 }
 
 /* FORMS */

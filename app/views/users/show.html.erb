@@ -1,10 +1,13 @@
 <div class="user-profile">
 <h1><%= @user.username %>'s Profile</h1>
 
-<h3>Bio: <%= @user.bio %>
-Reward Points: <%= @user.reward_points %>
-Favorite Game: <%= @user.favorite_game %>
-Player Rank: <%= @user.rank %></h3>
+<h2>User Info</h2>
+<div class="user-info">
+  <%= @user.bio %><br>
+  <%= @user.reward_points %> Reward Points<br>
+  Favorite Game: <%= @user.favorite_game %><br>
+  Player Rank: <%= @user.rank %><br>
+</div>
 
 <h2>Created Games</h2>
 <% @user.created_games.each do |game| %>
