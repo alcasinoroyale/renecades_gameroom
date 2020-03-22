@@ -1,5 +1,5 @@
-<h3> Welcome Back to Renecades, Please Login to Play!</h3>
 <div class="login">
+  <h1>Login</h1>
   <%= form_for @user, url: login_path do |f| %>
     <%= f.label :id, "Username" %><br>
     <%= f.collection_select :username, User.all, :username, :username, {}, {class: "username-select"} %>
@@ -10,7 +10,7 @@
   <% end %>
 </div>
 
-<br>
+  <br>
 
 <div class="home-links">
   <%= link_to('Login with Facebook', '/auth/facebook') if !logged_in? %><br>

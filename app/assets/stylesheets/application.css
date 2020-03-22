@@ -119,11 +119,15 @@ form input[type='password'] {
   margin-top: 10px;
 }
 
-.new-user, .login label {
+.new-user, .login {
+  padding: 10px;
+}
+
+.new-user label, .login label {
   font-size: 20px;
 }
 
-.new-user, .login form input {
+.new-user form input, .login form input {
   font-size: 16px;
   margin-top: 10px;
 }
@@ -169,10 +173,9 @@ body {
 
 .home-links {
   font-family: sans-serif;
-  font-size: 20px;
-  position: absolute;
-  left: 10px;
-  bottom: 350px;
+  font-size: 18px;
+  padding: 10px;
+
 }
 
 .style_image {
